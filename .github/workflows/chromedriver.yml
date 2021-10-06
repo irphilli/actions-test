@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - uses: nanasess/setup-chromedriver@master
+#    - uses: actions/checkout@v2
+#    - uses: nanasess/setup-chromedriver@master
     - run: |
         chromedriver --version
